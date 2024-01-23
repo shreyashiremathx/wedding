@@ -1,3 +1,6 @@
+
+
+
 const storage = (table) => {
 
     if (!localStorage.getItem(table)) {
@@ -147,6 +150,7 @@ const util = (() => {
         document.getElementById('show-modal-image').src = img.src;
         (new bootstrap.Modal('#modal-image')).show();
     };
+    
 
     const tamu = () => {
         let name = (new URLSearchParams(window.location.search)).get('to');

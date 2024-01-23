@@ -374,7 +374,7 @@ const pagination = (() => {
         }
     };
 })();
-
+/*
 const session = (() => {
 
     let body = document.querySelector('body');
@@ -417,6 +417,7 @@ const session = (() => {
 
     return { check };
 })();
+*/
 
 const like = (() => {
 

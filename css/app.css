@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
     width: 0.25rem;
     height: 0.625rem;
     border-radius: 25%;
-    background-color: #ffffff;
+    background-color: #403d3d;
     animation-name: scroll;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -113,6 +113,9 @@ body::-webkit-scrollbar {
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
 }
+
+
+
 
 .containerr {
     display: grid;
